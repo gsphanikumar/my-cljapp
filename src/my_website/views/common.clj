@@ -5,8 +5,8 @@
 (defpartial layout [& content]
             (html5
               [:head
-               [:title "my-website"]
-               (include-css "/css/reset.css")]
+               [:title "Clojure app"]
+               (include-css "/css/noir.css")]
               [:body
                [:div#wrapper
                 content]]))
